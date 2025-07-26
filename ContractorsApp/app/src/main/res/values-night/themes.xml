@@ -1,0 +1,14 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Основна тема на приложението (за тъмен режим) -->
+    <style name="Base.Theme.ContractorsApp" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Използваме по-светлия син цвят, за да изпъква на тъмен фон -->
+        <item name="colorPrimary">@color/primary_night_blue</item>
+        <item name="colorPrimaryVariant">@color/primary_night_blue</item>
+        <item name="colorOnPrimary">@color/black</item>
+
+        <item name="colorSecondary">@color/accent_orange</item>
+        <item name="colorOnSecondary">@color/black</item>
+
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+    </style>
+</resources>

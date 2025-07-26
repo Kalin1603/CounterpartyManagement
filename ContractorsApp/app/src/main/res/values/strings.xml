@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Управление на контрагенти</string>
+
+    <string name="phone_label">Телефон: %1$s</string>
+</resources>

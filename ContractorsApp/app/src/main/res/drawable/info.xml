@@ -1,0 +1,24 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="32dp"
+    android:height="32dp"
+    android:viewportWidth="48"
+    android:viewportHeight="48">
+
+  <!-- 1. ВРЪЩАМЕ КРЪГА, НО ГО ПРАВИМ ПОЛУПРОЗРАЧЕН -->
+  <!-- #40FFFFFF е бял цвят с около 25% прозрачност -->
+  <path
+      android:pathData="M24,24m-21,0a21,21 0,1 1,42 0a21,21 0,1 1,-42 0"
+      android:fillColor="#40FFFFFF"/>
+
+  <!-- 2. ОСТАВЯМЕ БУКВИЧКАТА "i" ПЛЪТНО БЯЛА, ЗА ДА ИЗПЪКВА -->
+  <!-- Това е тялото на буквичката 'i' -->
+  <path
+      android:pathData="M22,22h4v11h-4z"
+      android:fillColor="@android:color/white"/>
+
+  <!-- Това е точката на буквичката 'i' -->
+  <path
+      android:pathData="M24,16.5m-2.5,0a2.5,2.5 0,1 1,5 0a2.5,2.5 0,1 1,-5 0"
+      android:fillColor="@android:color/white"/>
+
+</vector>

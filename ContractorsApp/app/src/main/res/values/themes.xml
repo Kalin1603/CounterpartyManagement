@@ -1,0 +1,23 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Основна тема на приложението (за светъл режим) -->
+    <style name="Base.Theme.ContractorsApp" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Основен цвят (за Toolbar) -->
+        <item name="colorPrimary">@color/primary_blue</item>
+        <item name="colorPrimaryVariant">@color/primary_blue</item>
+        <item name="colorOnPrimary">@color/white</item>
+
+        <!-- Акцентиращ цвят (за бутони, чекбоксове и др.) -->
+        <item name="colorSecondary">@color/accent_orange</item>
+        <item name="colorOnSecondary">@color/white</item>
+
+        <!-- >>> КЛЮЧОВАТА ПРОМЯНА: Задаваме светлосиния фон <<< -->
+        <item name="android:windowBackground">@color/window_background_blue</item>
+
+        <!-- Цвят на статус бара (лентата най-отгоре на телефона) -->
+        <item name="android:statusBarColor">@android:color/transparent</item>
+
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+
+    <style name="Theme.ContractorsApp" parent="Base.Theme.ContractorsApp" />
+</resources>

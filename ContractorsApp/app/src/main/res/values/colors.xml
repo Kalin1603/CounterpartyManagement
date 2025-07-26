@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Основна синя гама -->
+    <color name="primary_blue">#0D47A1</color> <!-- Наситен, тъмно син за Toolbar -->
+    <color name="primary_light_blue">#1976D2</color> <!-- По-светъл син, ако ни потрябва -->
+    <color name="accent_orange">#FF6D00</color> <!-- Контрастен оранжев за акценти (напр. бутони) -->
+
+    <!-- НОВ ЦВЯТ: Фонът на приложението -->
+    <color name="window_background_blue">#E3F2FD</color> <!-- Много светло синьо -->
+
+    <!-- Цветове за тъмна тема -->
+    <color name="primary_night_blue">#64B5F6</color> <!-- По-светъл син за тъмен режим -->
+
+    <!-- Стандартни цветове -->
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+</resources>
